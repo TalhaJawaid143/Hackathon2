@@ -1,0 +1,19 @@
+[project]
+name = "in-memory-todo-app"
+version = "0.1.0"
+description = "A command-line todo application that stores tasks in memory"
+readme = "README.md"
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/in-memory-todo-app"
+"Bug Reports" = "https://github.com/yourusername/in-memory-todo-app/issues"
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
